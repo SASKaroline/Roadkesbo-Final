@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    header {
+        background-color: blueviolet;
+        padding: 30px;
+        text-align:center;
+        font-size: 35px;
+        color: white;
+        font-family: "Mali", cursive;
+    }
+    nav {
+        float: left;
+        width: 15%;
+        height: 799px;
+        background: #9047b8;
+        padding: 20px;
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    nav a {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffffff;
+    }
+    article {
+        float: left;
+        padding: 20px;
+        width: 85%;
+        background-color: #d0afe2;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    section::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    footer {
+        background-color: rgb(172, 104, 199);
+        padding: 10px;
+        text-align: center;
+        color: rgb(77, 4, 105);
+        width: 100%;
+    }
+    @media (max-width: 600px) {
+        nav, article {
+          width: 100%;
+          height: auto;
+        }
+    }
